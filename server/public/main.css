@@ -5,13 +5,14 @@
 
 .tiles {
   display: grid;
-  background-image: url(../../server/public/images/frootloops.png);
-  grid-template-columns: 130px 130px 130px 130px;
-  grid-template-rows: 130px 130px 130px 130px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2px 2px;
   justify-content: center;
 }
 
 .tile {
+  display: inline-block;
   border: solid black 1px;
   border-radius: 5%;
   padding: 0px;

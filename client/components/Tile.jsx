@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Tile (props) {
-  return (
-    <img src="/images/frootloops/1.jpg" className='tile'></img>
-  )
+  const isVisible = props.isVisible
+  if (isVisible) {
+    return <img src={props.src} className='tile'></img>
+  } else return <div className='tile'></div>
 }
 
 export default Tile

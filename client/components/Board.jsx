@@ -8,7 +8,7 @@ const Board = (props) => {
       {props.tiles.map(tile => {
         return <Tile
           key={tile.id}
-          src={tile.value}
+          src={tile.src}
           isVisible={tile.isVisible}
         />
       })}

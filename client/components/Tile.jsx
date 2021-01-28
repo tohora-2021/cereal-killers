@@ -2,9 +2,7 @@ import React from 'react'
 
 function Tile (props) {
   return (
-    <div className='tile'>
-      {props.isVisible && props.value}
-    </div>
+    <img src="/images/frootloops/1.jpg" className='tile'></img>
   )
 }
 

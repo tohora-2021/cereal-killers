@@ -1,0 +1,24 @@
+.game {
+  text-align: center;
+  justify-content: center;
+}
+
+.tiles {
+  display: grid;
+  background-image: url(../../server/public/images/frootloops.png);
+  grid-template-columns: 130px 130px 130px 130px;
+  grid-template-rows: 130px 130px 130px 130px;
+  justify-content: center;
+}
+
+.tile {
+  border: solid black 1px;
+  border-radius: 5%;
+  padding: 0px;
+  align-content: center;
+  font-size: 80px;
+  font-family: 'Symbola';
+  height: 100px;
+  width: 100px;
+}
+

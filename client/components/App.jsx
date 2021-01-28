@@ -1,11 +1,15 @@
 import React from 'react'
+import Board from './Board'
+
+// need to import image.src array
+import imageTiles from '../imageSources'
 
 const App = () => {
   return (
-    <>
-    <h1>React development has begun!</h1>
-    <img src="/images/"
-    </>
+    <div className="game">
+      <h1>Cereal Killers!</h1>
+      <Board tiles={imageTiles} />
+    </div>
   )
 }
 

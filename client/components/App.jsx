@@ -1,11 +1,12 @@
 import React from 'react'
+import Board from './Board'
 
 const App = () => {
   return (
-    <>
-    <h1>React development has begun!</h1>
-    <img src="/images/"
-    </>
+    <div className="game">
+      <h1>Cereal Killers!</h1>
+      <Board></Board>
+    </div>
   )
 }
 

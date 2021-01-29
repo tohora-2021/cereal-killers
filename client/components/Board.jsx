@@ -1,7 +1,12 @@
-import React from 'react'
-
+import React, { useState } from 'react'
 import Tile from './Tile'
 
+function setTileVisible () {
+  const [visibility, setVisibility] = useState(false)
+  const 
+
+}
+  // setTile(tile.isVisible = true)
 const Board = (props) => {
   return (
     <div className="Tiles">
@@ -10,6 +15,7 @@ const Board = (props) => {
           key={tile.id}
           src={tile.src}
           isVisible={tile.isVisible}
+          onClick={setTileVisible}
         />
       })}
       <Tile />

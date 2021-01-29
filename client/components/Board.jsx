@@ -3,7 +3,7 @@ import Tile from './Tile'
 
 export default function Board (props) {
   return (
-    <div className="Tiles">
+    <div data-testId="testId" className="Tiles">
       {props.tiles.map(tile => {
         return <Tile
           key={tile.id}

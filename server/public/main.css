@@ -1,6 +1,8 @@
 body{
-  background-color: #c1a1d3;
+  background-color: #fff3e6;
   text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: xx-large;
 }
 .game {
   display: inline-block;
@@ -18,7 +20,7 @@ body{
  }
 
 .tile {
-  background-color: #fff3e6;
+  background-color: #c1a1d3;
   display: inline-block;
   border: solid black 1px;
   border-radius: 5%;
@@ -27,4 +29,5 @@ body{
   height: 100px;
   width: 100px;
 }
+
 

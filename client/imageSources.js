@@ -10,5 +10,17 @@ export default [
   { id: 8, src: '/images/frootloops/8.jpg', isVisible: false },
   { id: 9, src: '/images/frootloops/9.jpg', isVisible: false },
   { id: 10, src: '/images/frootloops/10.jpg', isVisible: false },
-  { id: 11, src: '/images/frootloops/11el.jpg', isVisible: false }
+  { id: 11, src: '/images/frootloops/11el.jpg', isVisible: false },
+  { id: 12, src: '/images/luckyCharms/0.jpg', isVisible: false },
+  { id: 13, src: '/images/luckyCharms/1.jpg', isVisible: false },
+  { id: 14, src: '/images/luckyCharms/2.jpg', isVisible: false },
+  { id: 15, src: '/images/luckyCharms/3.jpg', isVisible: false },
+  { id: 16, src: '/images/luckyCharms/4.jpg', isVisible: false },
+  { id: 17, src: '/images/luckyCharms/5.jpg', isVisible: false },
+  { id: 18, src: '/images/luckyCharms/6.jpg', isVisible: false },
+  { id: 19, src: '/images/luckyCharms/7.jpg', isVisible: false },
+  { id: 20, src: '/images/luckyCharms/8.jpg', isVisible: false },
+  { id: 21, src: '/images/luckyCharms/9.jpg', isVisible: false },
+  { id: 22, src: '/images/luckyCharms/10.jpg', isVisible: false },
+  { id: 23, src: '/images/luckyCharms/11.jpg', isVisible: false }
 ]

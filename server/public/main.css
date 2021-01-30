@@ -30,4 +30,22 @@ body{
   width: 100px;
 }
 
+@media all and (max-width: 320px) {
+  body {
+    background-color: aquamarine;
+  }
+}
+
+@media all and (max-width: 768px) {
+  body {
+    font-size: x-small;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  body {
+    background-color: chocolate;
+  }
+}
+
 
